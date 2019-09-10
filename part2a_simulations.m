@@ -16,7 +16,7 @@ end
 for ii = 1:6
     [XMP(:,:,ii),eigvalMP(ii,:)] = part2a(fs,N,f,A(ii),"MP",lhh);
 end
-%% calculate THD for FE
+%% calculate THD for FEM
 NDFT = length(XFE(4,2*fs+1:end,1));
 w = hann(NDFT)';
 wsum = sum(w);
