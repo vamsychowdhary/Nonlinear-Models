@@ -1,4 +1,4 @@
-function [TIMDr,TIMDf] = Task_4(Y,f1,f2,fs,N,nmax,Nsl)
+function [TIMDr,TIMDf] = timd(Y,f1,f2,fs,N,nmax,Nsl)
 
 % Frequency axis
 f = (0:N/2-1)*fs/N;
