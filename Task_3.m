@@ -1,4 +1,4 @@
-function [THDr,THDf] = Task_3(Y,f0,fs,N,nmax,Nsl)
+function [THDr,THDf] = thd(Y,f0,fs,N,nmax,Nsl)
 
 % Frequency axis
 f = (0:N/2-1)*fs/N;
